@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schedule user="Michael Jordan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../validation/validate.xsd">
+  <event id="hmm1ko67J">
+    <title>hmmmmmm</title>
+    <type>Event</type>
+    <date>
+      <day>7</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Badmzft1J">
+    <title>Badeep</title>
+    <type>Task</type>
+    <date>
+      <day>11</day>
+      <month>June</month>
+      <startingTime>01:30 PM</startingTime>
+      <endingTime>12:00 PM</endingTime>
+    </date>
+  </event>
+  <event id="Ver6hh41J">
+    <title>Very Good</title>
+    <type>Event</type>
+    <date>
+      <day>15</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Fortcz51J">
+    <title>Form Bro</title>
+    <type>Appointment</type>
+    <date>
+      <day>16</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Badsxaq2J">
+    <title>Badeep 2</title>
+    <type>Event</type>
+    <date>
+      <day>25</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="hmmlpik2J">
+    <title>hmmmmmmmmm</title>
+    <type>Event</type>
+    <date>
+      <day>21</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Alm2s475J">
+    <title>Almost</title>
+    <type>Event</type>
+    <date>
+      <day>5</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="The2bwx2J">
+    <title>The Corner</title>
+    <type>Event</type>
+    <date>
+      <day>27</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Noind941J">
+    <title>Noice</title>
+    <type>Event</type>
+    <date>
+      <day>17</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Foruc312J">
+    <title>Forreal</title>
+    <type>Event</type>
+    <date>
+      <day>27</day>
+      <month>June</month>
+    </date>
+  </event>
+</schedule>

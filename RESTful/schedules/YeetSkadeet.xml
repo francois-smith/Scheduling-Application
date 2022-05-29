@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schedule user="Yeet Skadeet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../validation/validate.xsd">
+  <event id="Eve0l0m1J">
+    <title>Event 1</title>
+    <type>Event</type>
+    <date>
+      <day>1</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Eveob4h1J">
+    <title>Event 2</title>
+    <type>Event</type>
+    <date>
+      <day>2</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Eve3o1n3J">
+    <title>Event 3</title>
+    <type>Event</type>
+    <date>
+      <day>3</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Eveq07i4J">
+    <title>Event 4</title>
+    <type>Event</type>
+    <date>
+      <day>4</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Evepv755J">
+    <title>Event 5</title>
+    <type>Event</type>
+    <date>
+      <day>5</day>
+      <month>June</month>
+    </date>
+    <guests>
+      <guest>
+        <name>Michael Stop Viewing</name>
+        <email>Our Schedules</email>
+      </guest>
+    </guests>
+    <venue>IT Lounge</venue>
+  </event>
+  <event id="Jefz3yf1J">
+    <title>Jeff Go Away</title>
+    <type>Event</type>
+    <date>
+      <day>16</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Daddmig2J">
+    <title>DaddyLongLegs</title>
+    <type>Event</type>
+    <date>
+      <day>20</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="ImUt3iv6J">
+    <title>Im Unsure</title>
+    <type>Event</type>
+    <date>
+      <day>6</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="GoY0jxx1J">
+    <title>Go Yeeting And Skadeeting</title>
+    <type>Event</type>
+    <date repeat="Weekly">
+      <day>19</day>
+      <month>June</month>
+      <endingTime>10:00 AM</endingTime>
+    </date>
+    <description>I dont even know anymore</description>
+  </event>
+  <event id="Lasxujb2J">
+    <title>Last One</title>
+    <type>Event</type>
+    <date>
+      <day>29</day>
+      <month>June</month>
+    </date>
+  </event>
+</schedule>

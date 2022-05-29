@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schedule user="John Travolta" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../validation/validate.xsd">
+  <event id="Sufl6g83J">
+    <title>Suffer</title>
+    <type>Event</type>
+    <date repeat="Daily">
+      <day>30</day>
+      <month>June</month>
+      <startingTime>07:30 AM</startingTime>
+      <endingTime>08:00 AM</endingTime>
+    </date>
+  </event>
+  <event id="Codu98b7J">
+    <title>Code Some Trash</title>
+    <type>Task</type>
+    <date>
+      <day>7</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Che0ha51J">
+    <title>Cheese</title>
+    <type>Event</type>
+    <date>
+      <day>18</day>
+      <month>June</month>
+    </date>
+    <guests>
+      <guest>
+        <name/>
+        <email>One</email>
+      </guest>
+      <guest>
+        <name/>
+        <email>Two</email>
+      </guest>
+      <guest>
+        <name>Email</name>
+        <email/>
+      </guest>
+      <guest>
+        <name>Test</name>
+        <email/>
+      </guest>
+    </guests>
+  </event>
+  <event id="IDo914f1J">
+    <title>I Don't Know</title>
+    <type>Appointment</type>
+    <date repeat="Weekly">
+      <day>13</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Iam92ck4J">
+    <title>I am Task</title>
+    <type>Event</type>
+    <date>
+      <day>4</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Tas27o91J">
+    <title>Task420</title>
+    <type>Appointment</type>
+    <date>
+      <day>1</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Mic35ip1J">
+    <title>Michael Don't View</title>
+    <type>Task</type>
+    <date>
+      <day>8</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Bloi03c2J">
+    <title>Blopop</title>
+    <type>Event</type>
+    <date>
+      <day>21</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Dad9n0u1J">
+    <title>DaddyShortLegs</title>
+    <type>Event</type>
+    <date>
+      <day>16</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Iambnzq1J">
+    <title>I am tired</title>
+    <type>Event</type>
+    <date>
+      <day>26</day>
+      <month>June</month>
+    </date>
+  </event>
+</schedule>

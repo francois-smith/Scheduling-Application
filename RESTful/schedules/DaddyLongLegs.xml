@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schedule user="DaddyLongLegs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../validation/validate.xsd">
+  <event id="Makrfl12J">
+    <title>Make Coffee</title>
+    <type>Event</type>
+    <date repeat="Daily">
+      <day>2</day>
+      <month>June</month>
+      <startingTime>06:30 AM</startingTime>
+      <endingTime>07:00 AM</endingTime>
+    </date>
+    <guests>
+      <guest>
+        <name/>
+        <email>Me</email>
+      </guest>
+    </guests>
+    <venue>Home</venue>
+    <description>Good Coffee</description>
+  </event>
+  <event id="Stukxgq1J">
+    <title>Study</title>
+    <type>Task</type>
+    <date repeat="Daily">
+      <day>12</day>
+      <month>June</month>
+      <startingTime>09:30 AM</startingTime>
+      <endingTime>12:00 PM</endingTime>
+    </date>
+    <venue>Home</venue>
+    <description>.....</description>
+  </event>
+  <event id="Plaiy1x1J">
+    <title>Play Games</title>
+    <type>Event</type>
+    <date>
+      <day>12</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="GoTgd9e1J">
+    <title>Go To Doctor</title>
+    <type>Appointment</type>
+    <date>
+      <day>1</day>
+      <month>June</month>
+      <startingTime>08:30 AM</startingTime>
+    </date>
+    <description>Feeling Sick</description>
+  </event>
+  <event id="Reiaz3j2J">
+    <title>Reinstall Windows</title>
+    <type>Event</type>
+    <date repeat="Monthly">
+      <day>26</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Nop4tf42J">
+    <title>Nopes</title>
+    <type>Event</type>
+    <date>
+      <day>20</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Buyc0pq2J">
+    <title>Buy Food</title>
+    <type>Task</type>
+    <date>
+      <day>24</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Fix6j5x2J">
+    <title>Fix Assignment</title>
+    <type>Appointment</type>
+    <date>
+      <day>29</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Yee219x7J">
+    <title>Yeetus</title>
+    <type>Event</type>
+    <date>
+      <day>7</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="IDokm3b8J">
+    <title>I Don't Know Anymore</title>
+    <type>Event</type>
+    <date>
+      <day>8</day>
+      <month>June</month>
+    </date>
+  </event>
+</schedule>

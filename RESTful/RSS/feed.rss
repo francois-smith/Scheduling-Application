@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feed>
+  <event id="dwamk8g1J" status="removed" user="Jeff">
+    <title>dwadawdawd</title>
+    <type>Event</type>
+    <date>
+      <day>15</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="dwamk8g1J" status="added" user="Jeff">
+    <title>dwadawdawd</title>
+    <type>Event</type>
+    <date>
+      <day>15</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="Fortcz51J" status="updated" user="MichaelJordan">
+    <title>Form Bro</title>
+    <type>Appointment</type>
+    <date>
+      <day>16</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="dawn9731J" status="removed" user="DaddyLongLegs">
+    <title>dawdawda</title>
+    <type>Event</type>
+    <date>
+      <day>15</day>
+      <month>June</month>
+    </date>
+  </event>
+  <event id="dawn9731J" status="added" user="DaddyLongLegs">
+    <title>dawdawda</title>
+    <type>Event</type>
+    <date>
+      <day>15</day>
+      <month>June</month>
+    </date>
+  </event>
+</feed>
