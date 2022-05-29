@@ -48,15 +48,18 @@ Run the following commands to activate your server:
   node server.js
 ```
 
-Once your server is up and running navigate one folder back and locate the VUE folder, also open this folder in CMD and run the install command once again to get necessary packages.
+Once your server is up and running navigate one folder back and locate the VUE folder open this folder in CMD or integrated terminal. Run the following commands to start up the client:
 
-After installing the packages you can run the final command:
-- Starting the Vue client (server will default to port: 8080)
+- Installing dependencies
+```
+  npm install
+```
+- Start the development session. (server will default to port: 8080)
 ```
   npm run serve
 ```
 
-This will start a client on port: 8080, you can navigate to your browser and enter localhost:8080. This will open up the web client and you can now use the scheduling application.
+This will start a client on port: 8080, you can navigate to your browser and enter localhost:8080 (or use the link displayed in terminal). This will open up the web client and you can now use the scheduling application.
 
 <br/>
 
@@ -212,6 +215,9 @@ This will start a client on port: 8080, you can navigate to your browser and ent
 <div align="center">
     <img style="border-radius:10px" src="Vue/src/assets/RSSExample.png">
 </div>
+
+### Validation on Server
+- If POST or PUT gets called on server, thorough checks are done on all aspects of the sent event to make sure it follows the schema rules before it gets added to the correct XML file.
 
 <br/>
 
