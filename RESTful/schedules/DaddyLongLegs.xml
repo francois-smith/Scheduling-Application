@@ -12,12 +12,16 @@
     </date>
     <guests>
       <guest>
-        <name/>
-        <email>Me</email>
+        <name>Me</name>
+        <email>me@gmail.com</email>
+      </guest>
+      <guest>
+        <name>Ross</name>
+        <email>ross@gmail.com</email>
       </guest>
     </guests>
     <venue>Home</venue>
-    <description>Good Coffee</description>
+    <description>Need Coffee to be able to survive this trash module and semester</description>
   </event>
   <event id="Stukxgq1J">
     <title>Study</title>
