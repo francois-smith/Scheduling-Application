@@ -1,0 +1,12 @@
+:root{
+    --color-dark: #363638;
+    --color-gray: #8d8c8a;
+    --color-light: #f6f6f6;
+    --color-dark-accent: #55b0f2;
+    --color-accent: #55b0f2;
+}
+
+*{
+    height: 100vh;
+    background-color: var(--color-accent);
+}
