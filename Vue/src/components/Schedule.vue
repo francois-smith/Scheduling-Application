@@ -1,4 +1,5 @@
 <template>
+	<!-- Francois Smith u21649988 -->
 	<div class="calendar-month">
 		<div class="calendar-header">
 			<ScheduleMonthSelector :current-date="today" :selected-date="selectedDate" @dateSelected="selectDate" />

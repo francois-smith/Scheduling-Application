@@ -1,4 +1,5 @@
 <template>
+	<!-- Francois Smith u21649988 -->
     <div v-if="!(Object.keys(event).length === 0)" id="event-container">
         <div id="view-header">
             <input :disabled="!editable" v-model="title">

@@ -1,4 +1,5 @@
 <template>
+	<!-- Francois Smith u21649988 -->
     <div id="event-container">
         <div id="view-header">
             <input minlength="3" placeholder="Title" v-model="title">

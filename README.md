@@ -1,4 +1,4 @@
-[comment]: # (Open this link to view REAME Better https://github.com/francois-smith/Scheduling-Application)
+[comment]: # (Open this link to view README Better https://github.com/francois-smith/Scheduling-Application)
 
 <div id="top"></div>
 

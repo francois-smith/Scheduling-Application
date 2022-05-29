@@ -1,4 +1,5 @@
 <template>
+	<!-- Francois Smith u21649988 -->
 	<div @click="openMenu" class="add-event-button">
 		<span>+ Add Event</span>
 	</div>

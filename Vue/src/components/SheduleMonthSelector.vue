@@ -1,4 +1,5 @@
 <template>
+	<!-- Francois Smith u21649988 -->
 	<div class="calendar-date-selector">
 		<img class="button-left" @click="selectPrevious" src="../media/angle.svg">
 		<div class="current-month">

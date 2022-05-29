@@ -1,60 +1,61 @@
 <template>
-  <div id="main-container">
-    <div id="sidebar">
-		<div id="user-container">
-			<img id="user-icon" src="./media/user.png">
-			<span id="signed-in-as">Signed in as</span>
-			<select v-model="signedInUser" @change="updateWidth($event)">
-				<option>DaddyLongLegs</option>
-				<option>John Travolta</option>
-				<option>Michael Jordan</option>
-				<option>Yeet Skadeet</option>
-				<option>Jeff</option>
-			</select>
-		</div>
-		<h2 id="schedules-title">Schedules</h2>
-		<div class="user-calendar" v-on:click="loadCalendar($event, 'DaddyLongLegs')">
-			DaddyLongLegs
-		</div>
-		<div class="user-calendar" v-on:click="loadCalendar($event, 'JohnTravolta')">
-			John Travolta
-		</div>
-		<div class="user-calendar" v-on:click="loadCalendar($event, 'MichaelJordan')">
-			Michael Jordan
-		</div>
-		<div class="user-calendar" v-on:click="loadCalendar($event, 'YeetSkadeet')">
-			Yeet Skadeet
-		</div>
-		<div class="user-calendar" v-on:click="loadCalendar($event, 'Jeff')">
-			Jeff
-		</div>
-		<div id="rss-feed">
-			<h2 id="rss-feed-title">RSS Feed</h2>
-			<hr/>
+	<!-- Francois Smith u21649988 -->
+	<div id="main-container">
+		<div id="sidebar">
+			<div id="user-container">
+				<img id="user-icon" src="./media/user.png">
+				<span id="signed-in-as">Signed in as</span>
+				<select v-model="signedInUser" @change="updateWidth($event)">
+					<option>DaddyLongLegs</option>
+					<option>John Travolta</option>
+					<option>Michael Jordan</option>
+					<option>Yeet Skadeet</option>
+					<option>Jeff</option>
+				</select>
+			</div>
+			<h2 id="schedules-title">Schedules</h2>
+			<div class="user-calendar" v-on:click="loadCalendar($event, 'DaddyLongLegs')">
+				DaddyLongLegs
+			</div>
+			<div class="user-calendar" v-on:click="loadCalendar($event, 'JohnTravolta')">
+				John Travolta
+			</div>
+			<div class="user-calendar" v-on:click="loadCalendar($event, 'MichaelJordan')">
+				Michael Jordan
+			</div>
+			<div class="user-calendar" v-on:click="loadCalendar($event, 'YeetSkadeet')">
+				Yeet Skadeet
+			</div>
+			<div class="user-calendar" v-on:click="loadCalendar($event, 'Jeff')">
+				Jeff
+			</div>
+			<div id="rss-feed">
+				<h2 id="rss-feed-title">RSS Feed</h2>
+				<hr/>
 
-			<div class="feed-item" v-for="item in feed.event" :key="item">
-				<div class="feed-item-details">
-					<span class="feed-user">{{item.$.user.replace(/([A-Z])/g, ' $1').trim()}}</span>
-					<div class="feed-details">
-						<span v-if="item.$.status == 'updated'" class="updated feed-detail">Updated</span>
-						<span v-if="item.$.status == 'added'" class="added feed-detail">Added</span>
-						<span v-if="item.$.status == 'removed'" class="removed feed-detail">Removed</span>
-						<span> an event</span>
+				<div class="feed-item" v-for="item in feed.event" :key="item">
+					<div class="feed-item-details">
+						<span class="feed-user">{{item.$.user.replace(/([A-Z])/g, ' $1').trim()}}</span>
+						<div class="feed-details">
+							<span v-if="item.$.status == 'updated'" class="updated feed-detail">Updated</span>
+							<span v-if="item.$.status == 'added'" class="added feed-detail">Added</span>
+							<span v-if="item.$.status == 'removed'" class="removed feed-detail">Removed</span>
+							<span> an event</span>
+						</div>
 					</div>
+					<img v-if="item.$.status == 'updated'" src="./media/edit.svg">
+					<img v-if="item.$.status == 'added'" src="./media/add2.svg">
+					<img v-if="item.$.status == 'removed'" src="./media/delete2.svg">
 				</div>
-				<img v-if="item.$.status == 'updated'" src="./media/edit.svg">
-				<img v-if="item.$.status == 'added'" src="./media/add2.svg">
-				<img v-if="item.$.status == 'removed'" src="./media/delete2.svg">
 			</div>
 		</div>
-    </div>
-    <div id="schedule-container">
-		<div id="schedule-header">
-			<h2>{{activeUser}}</h2>
+		<div id="schedule-container">
+			<div id="schedule-header">
+				<h2>{{activeUser}}</h2>
+			</div>
+		<ScheduleMain @deleteEvent="deleteEvent" @updateEvent="updateEvent" @addEvent="addEvent" :schedule="activeSchedule" :viewedSchedule="viewedSchedule" :signedInUser="signedInUser"/>
 		</div>
-      <ScheduleMain @deleteEvent="deleteEvent" @updateEvent="updateEvent" @addEvent="addEvent" :schedule="activeSchedule" :viewedSchedule="viewedSchedule" :signedInUser="signedInUser"/>
-    </div>
-  </div>
+	</div>
 </template>
 
 <script>

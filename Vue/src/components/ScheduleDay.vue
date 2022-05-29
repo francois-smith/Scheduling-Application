@@ -1,4 +1,5 @@
 <template>
+	<!-- Francois Smith u21649988 -->
 	<li id="event_attachment" class="calendar-day" :class="{'prev-month': !day.isCurrentMonth, 'calendar-today': isToday}">
 		<div class="events-container" v-if="!(Object.keys(schedule).length === 0) && schedule.schedule.event.length != 0">
 			<template v-for="event in getSchedule">

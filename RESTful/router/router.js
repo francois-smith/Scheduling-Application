@@ -1,3 +1,5 @@
+//Francois Smith u21649988
+
 //Parser and Builder to convert XML to JSON Bi-Directionally
 xml2js = require('xml2js');
 parser = new xml2js.Parser();

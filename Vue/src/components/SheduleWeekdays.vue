@@ -1,4 +1,5 @@
 <template>
+	<!-- Francois Smith u21649988 -->
     <ol class="weekdays-container">
         <li v-for="weekday in weekdays" :key="weekday">
         {{ weekday }}
