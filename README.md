@@ -69,10 +69,10 @@ This will start a client on port: 8080, you can open your browser of choice and 
 </div>
 
 ### File Validation
-- All XML files containing schedules are validated with a universal .xsd file, this file is robust to detect errors in XML files and keep a unified structure for all schedule files.
+- All XML files containing schedules are validated with a universal .xsd file, this file is robust to keep a unified structure for all schedules and events.
  
 ### Displaying Information
-- Each schedule.xml can be opened in a browser to see a structured view of the contents, all schedules are linked to a .xsl file to format the data into a readable format. The xslt is data agnostic so it will work with any schedule.
+- Each `schedule`.xml can be opened in a browser to see a structured view of the contents, all schedules are linked to a .xsl file to format the data into a readable format. The xslt is data agnostic so it will work with any schedule.
 
 <div align="center">
     <h2 style="margin-bottom: -10px">Phase 2</h2>
