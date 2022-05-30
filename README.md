@@ -31,11 +31,9 @@ Data is stored using XML and is validated using a global XML Schema file. The re
 
 ## Usage
 
-Use github's download feature to download a .zip of the code.
+Extract the dowloaded .zip file to the loaction of your choice. Make sure you have Nodejs intalled on your machine to be able to run `npm` commands.
 
-Once you have the files installed you can extract them to a location of you choice. Make sure you have Nodejs intalled on your machine to be able to run `npm` commands.
-
-Once the files are extracted open the RESTful folder using CMD, or your code editor of choices' terminal.
+Once the files are extracted, open the RESTful folder using CMD or your code editor of choices' terminal.
 
 Run the following commands to activate your server:
 
@@ -48,7 +46,7 @@ Run the following commands to activate your server:
   node server.js
 ```
 
-Once your server is up and running navigate one folder back and locate the VUE folder open this folder in CMD or integrated terminal. Run the following commands to start up the client:
+Once your server is up and running navigate one folder back and locate the VUE folder, open this folder in CMD or integrated terminal. Run the following commands to start up the client:
 
 - Installing dependencies
 ```
@@ -59,11 +57,11 @@ Once your server is up and running navigate one folder back and locate the VUE f
   npm run serve
 ```
 
-This will start a client on port: 8080, you can navigate to your browser and enter localhost:8080 (or use the link displayed in terminal). This will open up the web client and you can now use the scheduling application.
+This will start a client on port: 8080, you can open your browser of choice and enter localhost:8080 (or use the link displayed in terminal). This will open up the web client and you can now use the scheduling application.
 
 <br/>
 
-## Features
+# Features
 <br/>
 
 <div align="center">
@@ -71,17 +69,17 @@ This will start a client on port: 8080, you can navigate to your browser and ent
 </div>
 
 ### File Validation
-- All XML files storing containing schedules are validated with a universal .dtd file, this file is robust to detect errors in XML files and keep a unified structure to all schedule files.
+- All XML files containing schedules are validated with a universal .xsd file, this file is robust to detect errors in XML files and keep a unified structure for all schedule files.
  
 ### Displaying Information
-- Each schedule,xml file can be viewed in the browser, all schedules are linked to a .xslt file to output the contents visually. The xslt is data agnostic so it will work with any schedule.
+- Each schedule.xml can be opened in a browser to see a structured view of the contents, all schedules are linked to a .xsl file to format the data into a readable format. The xslt is data agnostic so it will work with any schedule.
 
 <div align="center">
     <h2 style="margin-bottom: -10px">Phase 2</h2>
 </div>
 
 ### RESTful Server
-- The server provides the ability to perform CRUD events on the XML files. These commands are hidden from the user and rather provides an easy to use interface to interactiwith that communicates with the server to manipulate the data.
+- The server provides the ability to perform CRUD events on the XML files. These commands are hidden from the user, but rather get called from the visual client.
 - The server includes GET, POST, DELETE and PUT commands, examples of requests made with these commands are listed below.
      
 - GET
@@ -194,15 +192,15 @@ This will start a client on port: 8080, you can navigate to your browser and ent
 
 
 ### Application
-- The frontend of the client is built using Vue.js. Data is recieved from server then populated accordingly.
+- The frontend is built using Vue.js, data is recieved from server then populated accordingly.
 - There are 5 users built into the system without the ability to add new users. For demo purposes you can log in as any user and also view any calendar (updates cannot be made to other user calendars, more info below).
 - Some features:
-    - User schedules can be selected from a list of calendars (no calendar is selcted by default), if current user is the owner of schedule then all CRUD functionality can be used to manipulate the data.
+    - User schedules can be selected from a list of calendars (no calendar is selcted by default), if current user is the owner of the selected calendar then all CRUD functionality is available manipulate the data.
     - If a user opens a schedule that is not owned by them they can still view the data but they cannot perform CRUD events.
     - Using the built in dropdown a the active user can be selected, imitating an account system with different users.
 
 ### Interacting With The Data
-- Using the client ui, functions are bult into buttons communicate with the RESTful server to perform CRUD events on events and schedules.
+- Using the client ui, functions are bult into buttons to communicate with the RESTful server to perform CRUD functions on events and schedules.
 
 <div align="center">
     <h2 style="margin-bottom: -10px">Extras</h2>
